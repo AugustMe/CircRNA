@@ -52,7 +52,7 @@ class Solution(object):
             # print(Dict)
 
 
-if __name__ == "__main__":
-    s = Solution()
-    res = s.twoSum([2,4,7,3,5],10)
-    print(res)
+# if __name__ == "__main__":
+#     s = Solution()
+#     res = s.twoSum([2,4,7,3,5],10)
+#     print(res)
