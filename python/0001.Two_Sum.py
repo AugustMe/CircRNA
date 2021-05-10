@@ -40,7 +40,7 @@ class Solution(object):
         :return:
         """
         Dict = {} # 定义一个空字典，用于存放key-value
-        for i in range(0,len(nums)):
+        for i in range(0,len(nums)): # 注：可以用 for index，value in enumerate(nums)
             # print(i)
             value = target - nums[i]
             # print("value: ",value)
@@ -50,6 +50,7 @@ class Solution(object):
             else:
                 Dict[nums[i]]=i
             # print(Dict)
+        
 
 
 # if __name__ == "__main__":
